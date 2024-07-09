@@ -1,0 +1,48 @@
+.continer {
+    flex: 1;
+}
+
+.view-box {
+    flex: 1;
+    display: flex;
+    overflow-y: auto;
+    flex-direction: column;
+    padding: 1rem 10%;
+}
+
+.image-view {
+    width: 100%;
+}
+
+.content-view {
+    padding: 1rem 2rem;
+}
+
+
+.body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow-y: scroll;
+    padding: 1rem;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.tableWrapper {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.SEO {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0.5rem;
+    border-radius: 8px;
+}

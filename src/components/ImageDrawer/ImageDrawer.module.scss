@@ -1,0 +1,26 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    & img {
+        border-radius: 4px;
+    }
+}
+
+.upload {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .preview {
+    width: 100%;
+  
+    & img {
+      width: 100%;
+      object-fit: contain;
+      border-radius: 4px;
+    }
+  }

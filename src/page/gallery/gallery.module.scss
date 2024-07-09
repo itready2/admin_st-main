@@ -1,0 +1,54 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns layout */
+  gap: 2rem; /* Gap between grid items */
+}
+
+.image {
+  align-items: center;
+  width: 100%; /* Adjust the width as per your design */
+  height: auto; /* Maintain aspect ratio */
+
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.toolbar-image {
+  background-color: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(4px);
+  padding: 8px 16px;
+  border-radius: 50px;
+}
+
+.toolbar-icon{
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  color: white;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.upload {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.preview {
+  width: 100%;
+
+  & img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 4px;
+  }
+}

@@ -1,0 +1,22 @@
+.container {
+  width: 256px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid rgba(5, 5, 5, 0.06);
+}
+
+.menu {
+  font-family: "Noto Sans Thai", sans-serif;
+  position: relative;
+  height: 100%;
+  padding: 1rem 0;
+  border: none !important;
+  overflow: auto;
+}
+
+.logo {
+  padding: 2px;
+  width: 100%;
+  height: max-content;
+}

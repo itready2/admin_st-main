@@ -1,0 +1,68 @@
+$light-color: rgb(158, 158, 158);
+
+.backgroud {
+    display: flex;
+    flex: 1;
+    padding: 4rem;
+    gap: 1rem;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.image {
+    width: 80%;
+}
+
+.logo {
+    aspect-ratio: 1;
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+}
+
+.head {
+    font-size: 20pt;
+    text-align: center;
+}
+
+.FromLayout {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 50%
+}
+
+.InputFrom {
+    display: flex;
+    border-bottom: 1px solid $light-color;
+    gap: 4px;
+    font-size: 14pt;
+    padding: 4px 0;
+
+    & label {
+        display: flex;
+        align-items: center;
+        color: $light-color;
+    }
+
+    & input {
+        width: 100%;
+        border: none;
+    }
+}
+
+.submit {
+    font-size: 14pt;
+    background-color: #1ad990;
+    padding: 8px 0;
+    border-radius: 8px;
+    color: white;
+}

@@ -1,0 +1,91 @@
+$buttom-main: #0958d9;
+
+.conbtn {
+    background-color: $buttom-main;
+    color: white;
+    height: 2em;
+    font-size: medium;
+    border-radius: 4px;
+    width: 150px;
+}
+
+.image-upload {
+    background-color: $buttom-main;
+    color: white;
+    cursor: pointer;
+    align-content: center;
+    height: 2em;
+    font-size: medium;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.draftbtn {
+    color: $buttom-main;
+    border-radius: 4px;
+    border: none;
+}
+
+.errorInput {
+    border: 1px solid red;
+}
+
+.errorText {
+    color: red;
+    font-size: 12px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-self: center;
+}
+
+.areafield {
+    height: 10em;
+    resize: vertical;
+}
+
+.Hlabel {
+    font-size: 10pt;
+}
+
+.split {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.half {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.imageupload {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    gap: 8px;
+}
+
+.imagePreview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 16/9;
+    width: 360px;
+    border: 1px solid black;
+    border-radius: 4px;
+
+    & img {
+        aspect-ratio: 16/9;
+        object-fit: cover;
+        height: 100%;
+    }
+}
+
+.imageinput {
+    height: 2em;
+}

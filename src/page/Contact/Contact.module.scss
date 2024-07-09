@@ -1,0 +1,42 @@
+.continer {
+    flex: 1;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.tableWrapper {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.view-container {
+    flex: 1;
+    display: flex;
+    padding: 1.5rem;
+}
+
+.content-container {
+    flex: 1;
+    display: flex;
+    padding: 1.5rem;
+    flex-direction: column;
+}
+
+.content {
+    padding: 6px 8px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+.detail {
+    padding: 6px 8px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    height: 100%;
+    overflow-y: auto;
+}

@@ -1,0 +1,15 @@
+.continer {
+    flex: 1;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.tableWrapper {
+    height: 100%;
+    overflow-y: scroll;
+}

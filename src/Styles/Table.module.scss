@@ -1,0 +1,44 @@
+
+.custom-table {
+    width: 100%;
+}
+
+.id-column {
+    width: 5%;
+    text-align: center;
+}
+
+.name-column {
+    width: 15%;
+    text-align: left;
+}
+
+.detail-column {
+    width: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.title-column {
+    width: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.publish-column {
+    width: 10%;
+}
+
+.date-column {
+    width: 14%;
+}
+
+.price-column{
+    width: 8%;
+}
+
+.action-column{
+    width: 10%;
+}

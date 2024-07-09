@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap");
+
+/* Reset Style*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Noto Sans Thai", sans-serif;
+}
+
+#root {
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+}
+
+/*Reset Button Style*/
+button {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    font-family: "Noto Sans Thai", sans-serif;
+}
+
+/*Reset Input Style*/
+input,
+textarea {
+    appearance: none;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: none;
+    font-family: inherit;
+    font-size: 12pt;
+    color: inherit;
+    padding: 4px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.headtext {
+    font-size: x-large;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .headtext {
+        font-size: larger;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .headtext {
+        text-align: left;
+        font-size: medium;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+    }
+
+    main {
+        padding: 1rem 10%;
+    }
+}
